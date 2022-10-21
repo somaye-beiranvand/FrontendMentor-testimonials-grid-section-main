@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/barlow-semi-condensed-v14-latin-500.eot");
+  src: local(""),
+    url("../fonts/barlow-semi-condensed-v14-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/barlow-semi-condensed-v14-latin-500.woff2") format("woff2"),
+    url("../fonts/barlow-semi-condensed-v14-latin-500.woff") format("woff"),
+    url("../fonts/barlow-semi-condensed-v14-latin-500.ttf") format("truetype"),
+    url("../fonts/barlow-semi-condensed-v14-latin-500.svg#BarlowSemiCondensed")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/barlow-semi-condensed-v14-latin-600.eot");
+  src: local(""),
+    url("../fonts/barlow-semi-condensed-v14-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/barlow-semi-condensed-v14-latin-600.woff2") format("woff2"),
+    url("../fonts/barlow-semi-condensed-v14-latin-600.woff") format("woff"),
+    url("../fonts/barlow-semi-condensed-v14-latin-600.ttf") format("truetype"),
+    url("../fonts/barlow-semi-condensed-v14-latin-600.svg#BarlowSemiCondensed")
+      format("svg");
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Barlow Semi Condensed";
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+:root {
+  /****Primary colors****/
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+
+  /****Neutral colors****/
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+}

@@ -1,0 +1,73 @@
+body {
+  background-color: var(--Light-grayish-blue);
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  margin: 0;
+}
+.testimonials-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.8rem;
+  row-gap: 2rem;
+  width: 85%;
+  max-width: 111rem;
+}
+.testimonials-section > * {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 2.4rem 3rem;
+  border-radius: 1rem;
+  min-height: 280px;
+  grid-column: span 4;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+.author-img {
+  border-radius: 50%;
+  width: 4rem;
+}
+.author-description {
+  opacity: 50%;
+}
+.highlight-comment {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.comment {
+  opacity: 70%;
+}
+.author-name {
+  font-weight: 600;
+}
+.part-3,
+.part-4 {
+  background-color: var(--White);
+  color: var(--Very-dark-grayish-blue);
+}
+.part-1,
+.part-2,
+.part-5 {
+  color: var(--White);
+}
+.part-1 {
+  background-color: var(--Moderate-violet);
+}
+.part-2 {
+  background-color: var(--Very-dark-grayish-blue);
+}
+.part-5 {
+  background-color: var(--Very-dark-blackish-blue);
+}
+.part-3 {
+  grid-area: 5/1/6/5;
+}
