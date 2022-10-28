@@ -6,15 +6,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-p {
-  margin: 0;
+  margin: 3rem 0;
 }
 .testimonials-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2.8rem;
-  row-gap: 2rem;
+  row-gap: 2.4rem;
   width: 85%;
   max-width: 111rem;
 }
@@ -27,10 +25,16 @@ p {
   min-height: 280px;
   grid-column: span 4;
 }
+.part-4 {
+  grid-area: 5/1/6/5;
+}
 .author {
   display: flex;
   align-items: center;
   gap: 1.3rem;
+}
+.author-name {
+  font-weight: 600;
 }
 .author-img {
   border-radius: 50%;
@@ -46,9 +50,6 @@ p {
 .comment {
   opacity: 70%;
 }
-.author-name {
-  font-weight: 600;
-}
 .part-3,
 .part-4 {
   background-color: var(--White);
@@ -60,7 +61,9 @@ p {
   color: var(--White);
 }
 .part-1 {
-  background-color: var(--Moderate-violet);
+  background: no-repeat right 20% top 0
+      url("../images/bg-pattern-quotation.svg"),
+    var(--Moderate-violet);
 }
 .part-2 {
   background-color: var(--Very-dark-grayish-blue);
@@ -68,6 +71,9 @@ p {
 .part-5 {
   background-color: var(--Very-dark-blackish-blue);
 }
-.part-3 {
-  grid-area: 5/1/6/5;
+.part-1 .author-img {
+  border: 2px solid hsla(0, 0%, 100%, 50%);
+}
+.part-5 .author-img {
+  border: 2px solid var(--Moderate-violet);
 }

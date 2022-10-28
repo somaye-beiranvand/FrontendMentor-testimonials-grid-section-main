@@ -35,6 +35,9 @@ body {
   font-weight: 500;
   font-size: 1.3rem;
 }
+p {
+  margin: 0;
+}
 :root {
   /****Primary colors****/
   --Moderate-violet: hsl(263, 55%, 52%);
