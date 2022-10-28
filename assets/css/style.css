@@ -16,7 +16,7 @@ main {
   width: 85%;
   max-width: 111rem;
 }
-.testimonials-section > * {
+.card {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -25,7 +25,10 @@ main {
   min-height: 280px;
   grid-column: span 4;
 }
-.part-4 {
+.card:hover {
+  background-color: black;
+}
+.card-4 {
   grid-area: 5/1/6/5;
 }
 .author {
@@ -50,30 +53,30 @@ main {
 .comment {
   opacity: 70%;
 }
-.part-3,
-.part-4 {
+.card-3,
+.card-4 {
   background-color: var(--White);
   color: var(--Very-dark-grayish-blue);
 }
-.part-1,
-.part-2,
-.part-5 {
+.card-1,
+.card-2,
+.card-5 {
   color: var(--White);
 }
-.part-1 {
+.card-1 {
   background: no-repeat right 20% top 0
       url("../images/bg-pattern-quotation.svg"),
     var(--Moderate-violet);
 }
-.part-2 {
+.card-2 {
   background-color: var(--Very-dark-grayish-blue);
 }
-.part-5 {
+.card-5 {
   background-color: var(--Very-dark-blackish-blue);
 }
-.part-1 .author-img {
+.card-1 .author-img {
   border: 2px solid hsla(0, 0%, 100%, 50%);
 }
-.part-5 .author-img {
+.card-5 .author-img {
   border: 2px solid var(--Moderate-violet);
 }
