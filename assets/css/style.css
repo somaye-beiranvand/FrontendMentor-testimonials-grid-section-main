@@ -24,9 +24,11 @@ main {
   border-radius: 1rem;
   min-height: 280px;
   grid-column: span 4;
+  transition: all 1s;
 }
+
 .card:hover {
-  background-color: black;
+  transform: scale(1.04) !important;
 }
 .card-4 {
   grid-area: 5/1/6/5;
