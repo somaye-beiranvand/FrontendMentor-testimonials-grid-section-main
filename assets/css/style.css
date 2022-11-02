@@ -19,7 +19,7 @@ main {
 .card {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1rem;
   padding: 2.4rem 3rem;
   border-radius: 1rem;
   min-height: 280px;
@@ -43,7 +43,7 @@ main {
 }
 .author-img {
   border-radius: 50%;
-  width: 4rem;
+  width: 3rem;
 }
 .author-description {
   opacity: 50%;
@@ -51,6 +51,7 @@ main {
 .highlight-comment {
   font-weight: 600;
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 .comment {
   opacity: 70%;
