@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [testimonials-grid-section-main](https://somaye-beiranvand.github.io/FrontendMentor-testimonials-grid-section-main/)
-- Live Site URL: [testimonials-grid-section-main](https://www.frontendmentor.io/solutions/responsiv-testimonials-grid-section-main-with-grid-fDLq6I87Ef)
+- Solution URL: [testimonials-grid-section-main](https://www.frontendmentor.io/solutions/responsiv-testimonials-grid-section-main-with-grid-fDLq6I87Ef)
+- Live Site URL: [testimonials-grid-section-main](https://somaye-beiranvand.github.io/FrontendMentor-testimonials-grid-section-main/)
 
 ## My process
 
@@ -37,5 +37,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@somaye-beiranvand](https://www.frontendmentor.io/profile/somaye-beiranvand)
