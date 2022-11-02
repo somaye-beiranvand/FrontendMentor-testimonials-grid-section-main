@@ -47,6 +47,7 @@ main {
 }
 .author-description {
   opacity: 50%;
+  margin-top: -2px;
 }
 .highlight-comment {
   font-weight: 600;
