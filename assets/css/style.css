@@ -22,7 +22,6 @@ main {
   gap: 1rem;
   padding: 2.4rem 3rem;
   border-radius: 1rem;
-  min-height: 280px;
   grid-column: span 4;
   transition: all 1s;
 }
@@ -84,3 +83,4 @@ main {
 .card-5 .author-img {
   border: 2px solid var(--Moderate-violet);
 }
+.
