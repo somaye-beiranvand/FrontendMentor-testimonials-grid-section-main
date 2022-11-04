@@ -83,4 +83,6 @@ main {
 .card-5 .author-img {
   border: 2px solid var(--Moderate-violet);
 }
-.
+h1 {
+  font-size: inherit !important;
+}
