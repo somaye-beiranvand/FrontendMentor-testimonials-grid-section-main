@@ -33,7 +33,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Animate.css](https://animate.style/) - css library
 
 ## Author
 
