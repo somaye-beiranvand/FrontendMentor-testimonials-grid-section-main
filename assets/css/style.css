@@ -8,6 +8,9 @@ main {
   justify-content: center;
   padding: 7rem 0;
 }
+h1 {
+  font-size: inherit !important;
+}
 .testimonials-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -23,7 +26,7 @@ main {
   padding: 2.4rem 3rem;
   border-radius: 1rem;
   grid-column: span 4;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .card:hover {
@@ -82,7 +85,4 @@ main {
 }
 .card-5 .author-img {
   border: 2px solid var(--Moderate-violet);
-}
-h1 {
-  font-size: inherit !important;
 }
